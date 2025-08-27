@@ -3,6 +3,7 @@
 ### 🎉🎉🎉 It's time to create your very own website! 🎉🎉🎉
 
 ## **Table of Contents**
+
 - [Overview](#overview)
   - [Specs](#specs)
   - [The Big 3](#the-big-3-html-css-and-javascript)
@@ -23,6 +24,7 @@
 ## **Overview**
 
 🎯 **Goal:** Build and publish your own website on the internet using GitHub Pages! In this project, you’ll:
+
 - Learn how **HTML, CSS, and JavaScript** work together to create a webpage.
 - Host your live website on **GitHub Pages**—a free service that lets you share your site with anyone online.
 - Add personalized content, such as your interests and photos, to make the website your own.
@@ -31,10 +33,11 @@
 
 ## **Specs**
 
-These are the **requirements** for your website:  
-- You will use **HTML** to structure your page, **CSS** to style it, and **JavaScript** for interactivity.  
-- The site will feature **a short profile about you**, including your interests, an image, and other personalized content.  
-- It will be **hosted on GitHub Pages** and viewable on the internet.  
+These are the **requirements** for your website:
+
+- You will use **HTML** to structure your page, **CSS** to style it, and **JavaScript** for interactivity.
+- The site will feature **a short profile about you**, including your interests, an image, and other personalized content.
+- It will be **hosted on GitHub Pages** and viewable on the internet.
 - You can **update your site anytime**—it will remain live even after the project is complete!
 
 ---
@@ -84,19 +87,20 @@ To build a webpage, you'll need to use three key tools:
 ### Step-by-Step Work Flow
 
 1. 📂 **Open the `index.html` file** in your codespace to get started.
-   
-2. **Look for TODO sections** in the README:  
+2. **Look for TODO sections** in the README:
+
    - Each **TODO** has instructions for **what you need to do** next.
    - These steps will tell you **where to place new code** inside the existing tags.
 
-3. **Follow the instructions carefully** for each TODO:  
-   - Pay attention to where code should go (inside `<head>` or `<body>`).  
+3. **Follow the instructions carefully** for each TODO:
+
+   - Pay attention to where code should go (inside `<head>` or `<body>`).
    - If a step asks you to **add or remove code**, **only make those changes**—don’t change anything else unless instructed.
 
 4. 🖥️ **Preview your site regularly using Live Server** to see how your changes affect the website.
 
-5. **Build gradually**:  
-   - Each TODO builds on the previous one, so **complete them in order**.  
+5. **Build gradually**:
+   - Each TODO builds on the previous one, so **complete them in order**.
    - Take your time to **double-check your code** before moving on to the next step.
 
 ---
@@ -118,7 +122,8 @@ To build a webpage, you'll need to use three key tools:
 
 ---
 
-### ✅ **Check Your Work!**  
+### ✅ **Check Your Work!**
+
 - **After each TODO**, double-check your code to ensure it matches the examples.
 - If you encounter issues, **preview your site** using Live Server to troubleshoot.
 
@@ -153,7 +158,7 @@ There are two ways to open your project with **Live Server**:
 
 #### **Option 2: Go Live Button in the Bottom Panel**
 
-1. **Look at the bottom-right corner** of your codespace.  
+1. **Look at the bottom-right corner** of your codespace.
 2. **Click the “Go Live” button** to launch Live Server.
 
 <div style="text-align: center;">
@@ -179,7 +184,8 @@ There are two ways to open your project with **Live Server**:
 
 <br>
 
-### ✅ **Check Your Work!**  
+### ✅ **Check Your Work!**
+
 - **After launching Live Server**, your browser should open a new tab with your site.
 - At the beginning of this project, you will have a completely blank webpage. You will add content to your page as you work through the project.
 
@@ -258,11 +264,10 @@ Your updated code should look like this:
 1. 🔍 **Locate the `<div id="all-contents">` element**
 
    - Inside `index.html`, find this part of the code:
+
      ```html
      <!-- All content goes here -->
-     <div id="all-contents">
-
-     </div>
+     <div id="all-contents"></div>
      ```
 
 2. **Place the `<nav>` and `<main>` elements inside the `<div id="all-contents">` element**
@@ -271,13 +276,9 @@ Your updated code should look like this:
 
      ```html
      <div id="all-contents">
-       <nav>
+       <nav></nav>
 
-       </nav>
-
-       <main>
-
-       </main>
+       <main></main>
      </div>
      ```
 
@@ -322,10 +323,9 @@ Your updated code should look like this:
 1. 🔍 **Find the `<main>` element inside `index.html`**
 
    - Look for this code snippet:
-     ```html
-     <main>
 
-     </main>
+     ```html
+     <main></main>
      ```
 
 2. **Place two `<div>` elements inside the `<main>` element**.
@@ -337,14 +337,10 @@ Your updated code should look like this:
      ```html
      <main>
        <!-- Sidebar section -->
-       <div class="sidebar">
-
-       </div>
+       <div class="sidebar"></div>
 
        <!-- Content section -->
-       <div class="content">
-
-       </div>
+       <div class="content"></div>
      </main>
      ```
 
@@ -387,10 +383,9 @@ Your updated code should look like this:
 1. 🔍 **Find the `<div class="content">` element**
 
    - Look for this part of the code:
-     ```html
-     <div class="content">
 
-     </div>
+     ```html
+     <div class="content"></div>
      ```
 
 2. **Add an `<h2>` element inside the `<div class="content">` element**. The `<h2>` element should contain your name.
@@ -448,37 +443,38 @@ Your updated code should look like this:
 
 ### Step-by-Step Instructions
 
-1. 🔍 **Find the `<div class="content">` element**  
+1. 🔍 **Find the `<div class="content">` element**
+
    - Look for this section in your code:
-     ```html
-     <div class="content">
 
-     </div>
+     ```html
+     <div class="content"></div>
      ```
 
-2. **Create a new `<div>` for the Interests section**  
+2. **Create a new `<div>` for the Interests section**
+
    - **Inside the `<div class="content">` element**, add a new `<div>` element with an `id="interests"` attribute:
-     ```html
-     <div id="interests">
 
-     </div>
+     ```html
+     <div id="interests"></div>
      ```
 
-3. **Add a heading inside the Interests div**  
+3. **Add a heading inside the Interests div**
+
    - **Inside the `<div id="interests">` element**, add an `<h3>` element with the text `Interests`:
      ```html
      <h3>Interests</h3>
      ```
 
-4. **Create an unordered list for your interests**  
-   - Below the `<h3>` tag, add a `<ul>` element:
-     ```html
-     <ul>
+4. **Create an unordered list for your interests**
 
-     </ul>
+   - Below the `<h3>` tag, add a `<ul>` element:
+
+     ```html
+     <ul></ul>
      ```
 
-5. **Add three list items for your interests**  
+5. **Add three list items for your interests**
    - Inside the `<ul>` element, add three `<li>` elements to list your interests.
    - Inside each of the `<li>` elements, include one of your interests, such as `Coding`, `Football`, or `Sleeping`.
 
@@ -520,8 +516,9 @@ After completing this TODO, your updated `<div class="content">` element should 
 
 <br>
 
-### ✅ **Check Your Work!**  
-- Ensure the `<div id="interests">` section is **inside the `<div class="content">` element**.  
+### ✅ **Check Your Work!**
+
+- Ensure the `<div id="interests">` section is **inside the `<div class="content">` element**.
 - **Preview your site** using Live Server. You should see a list of interests below your name and title.
 
 <br>
@@ -540,27 +537,29 @@ After completing this TODO, your updated `<div class="content">` element should 
 
 ### Step-by-Step Instructions
 
-1. 🔍 **Find the `<div class="sidebar">` element**  
-   - Look for this part of the code inside the `<main>` element:
-     ```html
-     <div class="sidebar">
+1. 🔍 **Find the `<div class="sidebar">` element**
 
-     </div>
+   - Look for this part of the code inside the `<main>` element:
+
+     ```html
+     <div class="sidebar"></div>
      ```
 
 2. **Add an `<img>` tag inside the `<div class="sidebar">` element**
+
    - Remember that `<img>` elements do not need closing tags!
 
 3. **Add a `class="sidebar-img"` attribute and `src="CHANGE_ME"` attribute** to your `<img>` element
+
    - Your updated code should look like this:
      ```html
      <div class="sidebar">
-       <img class="sidebar-img" src="CHANGE_ME">
+       <img class="sidebar-img" src="CHANGE_ME" />
      </div>
      ```
 
-4. **Get a good image URL from Google**  
-   - **Open Google Images** and search for an image that fits your website.  
+4. **Get a good image URL from Google**
+   - **Open Google Images** and search for an image that fits your website.
    - **Right-click the image** you want to use, then **select "Copy image address."**
 
 <div style="text-align: center;">
@@ -569,11 +568,11 @@ After completing this TODO, your updated `<div class="content">` element should 
 
 <br>
 
-5. **Paste the copied URL into the `src` attribute** of the `<img>` tag.  
+5. **Paste the copied URL into the `src` attribute** of the `<img>` tag.
    - Example:
      ```html
      <div class="sidebar">
-       <img class="sidebar-img" src="https://example.com/image.jpg">
+       <img class="sidebar-img" src="https://example.com/image.jpg" />
      </div>
      ```
 
@@ -621,29 +620,31 @@ After completing this TODO, your updated `<div class="content">` element should 
 
 ### Step-by-Step Instructions
 
-1. 🔍 **Find the `<nav>` element inside `index.html`**  
-   - Look for the following section in your code:
-     ```html
-     <nav>
+1. 🔍 **Find the `<nav>` element inside `index.html`**
 
-     </nav>
+   - Look for the following section in your code:
+
+     ```html
+     <nav></nav>
      ```
 
-2. **Add a title inside the `<nav>` element**  
+2. **Add a title inside the `<nav>` element**
+
    - **Place an `<h1>` element** inside `<nav>`. Between the opening and closing `<h1>` tags, type the title of your website:
      ```html
      <h1>Your Name's Amazing Website</h1>
      ```
 
-3. **Create an unordered list for your navigation menu**  
-   - **Below the `<h1>` element**, add a `<ul id="nav-ul">` element:
-     ```html
-     <ul id="nav-ul">
+3. **Create an unordered list for your navigation menu**
 
-     </ul>
+   - **Below the `<h1>` element**, add a `<ul id="nav-ul">` element:
+
+     ```html
+     <ul id="nav-ul"></ul>
      ```
 
-4. **Add two list items for the menu**  
+4. **Add two list items for the menu**
+
    - **Inside the `<ul>` element**, add the following two `<li>` elements:
 
      1. One to link to your home page
@@ -663,6 +664,7 @@ After completing this TODO, your updated `<div class="content">` element should 
         ```
 
 After completing this TODO, your `<nav>` section should look like this:
+
 ```html
 <nav>
   <h1>Your Name's Amazing Website</h1>
@@ -696,8 +698,9 @@ After completing this TODO, your `<nav>` section should look like this:
 
 <br>
 
-### ✅ **Check Your Work!**  
-- Make sure the `<h1>` and `<ul>` elements are **inside the `<nav>` element**.  
+### ✅ **Check Your Work!**
+
+- Make sure the `<h1>` and `<ul>` elements are **inside the `<nav>` element**.
 - **Preview your site** using **Live Server** to ensure your title and menu appear on the site.
 
 <br>
@@ -730,6 +733,7 @@ After completing this TODO, your `<nav>` section should look like this:
      ```
 
 4. **Open the `style.css` file** and add the following CSS rules:
+
    ```CSS
    body {
        background: rgb(125, 198, 205);
@@ -737,12 +741,12 @@ After completing this TODO, your `<nav>` section should look like this:
        padding: 10px;
        font-family: Arial, sans-serif;
    }
-   
+
    #all-contents {
        max-width: 800px;
        margin: auto;
    }
-   
+
    /* navigation menu */
    nav {
        background: rgb(239, 80, 41);
@@ -750,7 +754,7 @@ After completing this TODO, your `<nav>` section should look like this:
        display: flex;
        padding: 10px;
    }
-   
+
    h1 {
        display: flex;
        align-items: center;
@@ -758,52 +762,52 @@ After completing this TODO, your `<nav>` section should look like this:
        flex: 1;
        margin: 0;
    }
-   
+
    #nav-ul {
        list-style-type: none;
        margin: 0;
        padding: 0;
        display: flex;
    }
-   
+
    .nav-li {
        display: inline-block;
        padding: 0 10px;
    }
-   
+
    a {
        text-decoration: none;
        color: #fff;
    }
-   
+
    /* main container area beneath menu */
    main {
        background: rgb(245, 238, 219);
        display: flex;
        margin-top: 20px;
    }
-   
+
    .sidebar {
        margin-right: 25px;
        padding: 10px;
    }
-   
+
    .sidebar-img {
        width: 200px;
    }
-   
+
    .content {
        flex: 1;
        padding: 15px;
    }
-   
+
    /* interests section styles */
    #interests {
        border: 4px silver ridge;
        padding: 8px;
        margin-top: 20px;
    }
-   
+
    h2, h3 {
        margin: 0px;
    }
@@ -960,19 +964,20 @@ After completing this TODO, your `<nav>` section should look like this:
 ### Step-by-Step Instructions
 
 1. **Comment out or remove the CSS link**
-   
+
    - In your `index.html` file, find the `<link>` tag in the `<head>` section:
+
      ```html
      <link rel="stylesheet" href="style.css" />
      ```
-   
+
    - Comment it out by wrapping it in `<!-- -->`:
      ```html
      <!-- <link rel="stylesheet" href="style.css" /> -->
      ```
 
 2. **Add the Tailwind CSS CDN**
-   
+
    - In the `<head>` section, add the Tailwind CSS script tag:
      ```html
      <head>
@@ -983,32 +988,42 @@ After completing this TODO, your `<nav>` section should look like this:
      ```
 
 3. **Update your body classes**
-   
+
    - Replace your `<body>` tag with Tailwind utility classes:
      ```html
-     <body class="bg-blue-50 text-gray-800 p-4 font-sans">
+     <body class="bg-blue-50 text-gray-800 p-4 font-sans"></body>
      ```
 
 4. **Update the main container**
-   
+
    - Update your `<div id="all-contents">` to use Tailwind classes:
      ```html
-     <div id="all-contents" class="max-w-4xl mx-auto">
+     <div id="all-contents" class="max-w-4xl mx-auto"></div>
      ```
 
 5. **Modernize your navigation**
-   
+
    - Replace your `<nav>` section with this Tailwind-styled version:
      ```html
      <nav class="bg-blue-500 p-4 rounded-lg mb-4 shadow-md">
        <div class="flex justify-between items-center">
-         <h1 class="text-white text-2xl font-bold">Your Name's Amazing Website</h1>
+         <h1 class="text-white text-2xl font-bold">
+           Your Name's Amazing Website
+         </h1>
          <ul class="flex space-x-4">
            <li>
-             <a href="index.html" class="text-white hover:text-blue-200 px-3 py-2 rounded">Home</a>
+             <a
+               href="index.html"
+               class="text-white hover:text-blue-200 px-3 py-2 rounded"
+               >Home</a
+             >
            </li>
            <li>
-             <a href="portfolio.html" class="text-white hover:text-blue-200 px-3 py-2 rounded">Portfolio</a>
+             <a
+               href="portfolio.html"
+               class="text-white hover:text-blue-200 px-3 py-2 rounded"
+               >Portfolio</a
+             >
            </li>
          </ul>
        </div>
@@ -1016,8 +1031,9 @@ After completing this TODO, your `<nav>` section should look like this:
      ```
 
 6. **Update your main content area**
-   
+
    - Replace your `<main>` section with this responsive layout:
+
      ```html
      <main class="bg-white rounded-lg shadow-lg p-6">
        <div class="flex flex-col md:flex-row gap-6">
@@ -1037,11 +1053,19 @@ After completing this TODO, your `<nav>` section should look like this:
 
            <!-- Interests section -->
            <div class="border-2 border-gray-300 rounded-lg p-4">
-             <h3 class="text-xl font-semibold mb-3 text-gray-800">My Interests</h3>
+             <h3 class="text-xl font-semibold mb-3 text-gray-800">
+               My Interests
+             </h3>
              <ul class="space-y-2">
-               <li class="bg-blue-100 px-3 py-2 rounded text-blue-800">Interest 1</li>
-               <li class="bg-pink-100 px-3 py-2 rounded text-pink-800">Interest 2</li>
-               <li class="bg-green-100 px-3 py-2 rounded text-green-800">Interest 3</li>
+               <li class="bg-blue-100 px-3 py-2 rounded text-blue-800">
+                 Interest 1
+               </li>
+               <li class="bg-pink-100 px-3 py-2 rounded text-pink-800">
+                 Interest 2
+               </li>
+               <li class="bg-green-100 px-3 py-2 rounded text-green-800">
+                 Interest 3
+               </li>
              </ul>
            </div>
          </div>
@@ -1078,16 +1102,19 @@ After completing this TODO, your `<nav>` section should look like this:
 Now you can easily add professional components to your website! Here are free resources:
 
 ### **1. Tailwind UI Components (Free)**
+
 - **Website:** [https://tailwindui.com/components](https://tailwindui.com/components)
 - **What it offers:** Ready-to-use buttons, cards, and menus
 - **No signup needed** for free components
 
 ### **2. Tailwind CSS Documentation**
+
 - **Website:** [https://tailwindcss.com/docs](https://tailwindcss.com/docs)
 - **What it offers:** Official examples for every style
 - Great for learning how classes work
 
 ### **3. Free Component Libraries**
+
 - **HyperUI:** [https://www.hyperui.dev/](https://www.hyperui.dev/)
 - **Tailblocks:** [https://tailblocks.cc/](https://tailblocks.cc/)
 
@@ -1119,12 +1146,36 @@ Want to try something cool? Here's how to add a photo gallery that automatically
 <div class="mt-8">
   <h3 class="text-2xl font-bold mb-4">My Photo Gallery</h3>
   <div class="flex flex-wrap gap-4">
-    <img src="https://picsum.photos/200/200?random=1" alt="Photo 1" class="w-32 h-32 object-cover rounded-lg shadow-md">
-    <img src="https://picsum.photos/200/200?random=2" alt="Photo 2" class="w-32 h-32 object-cover rounded-lg shadow-md">
-    <img src="https://picsum.photos/200/200?random=3" alt="Photo 3" class="w-32 h-32 object-cover rounded-lg shadow-md">
-    <img src="https://picsum.photos/200/200?random=4" alt="Photo 4" class="w-32 h-32 object-cover rounded-lg shadow-md">
-    <img src="https://picsum.photos/200/200?random=5" alt="Photo 5" class="w-32 h-32 object-cover rounded-lg shadow-md">
-    <img src="https://picsum.photos/200/200?random=6" alt="Photo 6" class="w-32 h-32 object-cover rounded-lg shadow-md">
+    <img
+      src="https://picsum.photos/200/200?random=1"
+      alt="Photo 1"
+      class="w-32 h-32 object-cover rounded-lg shadow-md"
+    />
+    <img
+      src="https://picsum.photos/200/200?random=2"
+      alt="Photo 2"
+      class="w-32 h-32 object-cover rounded-lg shadow-md"
+    />
+    <img
+      src="https://picsum.photos/200/200?random=3"
+      alt="Photo 3"
+      class="w-32 h-32 object-cover rounded-lg shadow-md"
+    />
+    <img
+      src="https://picsum.photos/200/200?random=4"
+      alt="Photo 4"
+      class="w-32 h-32 object-cover rounded-lg shadow-md"
+    />
+    <img
+      src="https://picsum.photos/200/200?random=5"
+      alt="Photo 5"
+      class="w-32 h-32 object-cover rounded-lg shadow-md"
+    />
+    <img
+      src="https://picsum.photos/200/200?random=6"
+      alt="Photo 6"
+      class="w-32 h-32 object-cover rounded-lg shadow-md"
+    />
   </div>
 </div>
 ```
